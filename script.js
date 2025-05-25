@@ -23,3 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function selecionarVip(tipo) {
   alert(`Você selecionou o VIP ${tipo}! Em breve você será redirecionado para o pagamento.`);
 }
+
+function mostrarInfo(nome) {
+  alert(`Informações sobre ${nome} serão adicionadas futuramente!`);
+}
