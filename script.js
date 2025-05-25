@@ -27,3 +27,7 @@ function selecionarVip(tipo) {
 function mostrarInfo(nome) {
   alert(`Informações sobre ${nome} serão adicionadas futuramente!`);
 }
+
+function toggleFAQ(element) {
+  element.classList.toggle("ativo");
+}
