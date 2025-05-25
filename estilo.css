@@ -217,3 +217,77 @@
   display: none;
   margin-top: 10px;
 }
+
+#loja {
+  background-color: #0b0b0b;
+  color: white;
+}
+
+.text-neon {
+  color: #00ffd5;
+  text-shadow: 0 0 8px #00ffd5;
+}
+
+.vip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.vip-card {
+  background-color: #111;
+  border-radius: 20px;
+  padding: 2rem;
+  border: 2px solid;
+  transition: transform 0.3s, border-color 0.3s;
+  cursor: pointer;
+}
+
+.vip-card:hover {
+  transform: scale(1.05);
+}
+
+.vip-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.vip-card ul {
+  text-align: left;
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
+
+.vip-btn {
+  background-color: #00ffd5;
+  color: black;
+  font-weight: bold;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.vip-btn:hover {
+  background-color: #00c4a2;
+}
+
+.vip-card.bronze {
+  border-color: #cd7f32;
+}
+
+.vip-card.ouro {
+  border-color: #ffd700;
+}
+
+.vip-card.diamante {
+  border-color: #ff00d4;
+}
+
+.vip-note {
+  color: #999;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  line-height: 1.6;
+}
