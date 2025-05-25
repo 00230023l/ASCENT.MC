@@ -291,3 +291,52 @@
   margin-top: 3rem;
   line-height: 1.6;
 }
+
+#equipe {
+  background-color: #000;
+  color: white;
+}
+
+.equipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.membro-card {
+  background: #111;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 2px solid #00ffd5;
+  transition: transform 0.3s ease;
+  text-align: center;
+  cursor: pointer;
+}
+
+.membro-card:hover {
+  transform: scale(1.05);
+}
+
+.membro-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+  border: 2px solid #00ffd5;
+}
+
+.membro-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.membro-card .cargo {
+  color: #888;
+  font-size: 0.95rem;
+}
+
+.text-neon {
+  color: #00ffd5;
+  text-shadow: 0 0 10px #00ffd5;
+}
